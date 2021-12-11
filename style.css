@@ -1,0 +1,60 @@
+body {
+    background: #e8cbc0;
+    background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+    background: linear-gradient(to right, #e8cbc0, #636fa4);
+    min-height: 100vh;
+}
+.bg {background: #e8cbc0;
+    background: -webkit-linear-gradient(to bottom, #d3aa9b, #6c7dc7);
+    background: linear-gradient(to top, #e60fa5, #2e2f35);
+    
+    
+}
+.meet{
+    color:whitesmoke;
+    font-style: italic;
+}
+.meet:hover{
+    padding:5%;
+   color:tomato;
+}
+
+.bg1 {
+    background: #e8cbc0;
+    background: -webkit-linear-gradient(to bottom,  #e60fa5, #2e2f35);
+    background: linear-gradient(to top, #e00b3a, #2e2f35);
+    
+}
+
+.bg2 
+{
+    background: #e8cbc0;
+    background: -webkit-linear-gradient(to bottom,  #e00b3a, #2e2f35);
+    background: linear-gradient(to top, #a005e7, #0c133d);
+    
+}
+.bg3    {
+    background: #e8cbc0;
+    background: -webkit-linear-gradient(to bottom,  #72414c, #2e2f35);
+    background: linear-gradient(to top, #da1212, #535b86);
+    
+}
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
